@@ -1,0 +1,18 @@
+#bodyColor {
+    background-color:maroon;
+}
+
+#myHeader {
+    font-family:sans-serif;
+    color:aqua;
+    font-size:90px;
+}
+
+#profilePic {
+    width: 500px;
+}
+
+#challengeImg {
+    width:600px;
+    
+}
