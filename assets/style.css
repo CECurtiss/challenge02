@@ -1,5 +1,5 @@
 #bodyColor {
-    background-color:white;
+    background-color:rgb(130, 31, 31);
 }
 
 #myHeader {
@@ -8,14 +8,24 @@
     font-size:90px;
 }
 
-.navMenu {
-    background-color:rgb(154, 30, 30);
+.mainMenu {
+    padding-left: 20px;
 }
 
-li{
+.mainMenu li{
     display:inline;
     float:right;
-    background-color:rgb(154, 30, 30);
+    font-size:150%;
+    padding-right:40px;
+    padding-top:10px;
+}
+
+.mainMenu li a{
+    color: #fb8b24;
+    border:10px;
+    border-color:#0f4c5c;
+    border-style:solid;
+    text-decoration:none;
 }
 
 #aboutBox {
