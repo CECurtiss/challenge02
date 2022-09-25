@@ -7,7 +7,6 @@
     color:rgb(217, 158, 75);
     font-size:90px;
 }
-
 .mainMenu {
     padding-left: 20px;
 }
@@ -28,16 +27,18 @@
     text-decoration:none;
 }
 
-#aboutBox {
-    background-color:blue;
-    width:200px;
+.aboutBox {
+    display:flex;
+}   
+
+.aboutBox p {
+    display:flex;
+    background-color:tan;
+    font-size:30px;
 }
 
-#profilePic {
-    width: 500px;
-    position: relative;
-    left: 900px;
-
+.aboutBox img{
+    width:200px;
 }
 
 #challengeImg {
@@ -47,4 +48,11 @@
 
 #challenge01 {
     background-color:grey;
+}
+
+.contactInfo li{
+    display:inline;
+    float:right;
+    font-size:200%;
+
 }
