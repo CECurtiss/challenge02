@@ -1,18 +1,40 @@
 #bodyColor {
-    background-color:maroon;
+    background-color:white;
 }
 
 #myHeader {
     font-family:sans-serif;
-    color:aqua;
+    color:rgb(217, 158, 75);
     font-size:90px;
+}
+
+.navMenu {
+    background-color:rgb(154, 30, 30);
+}
+
+li{
+    display:inline;
+    float:right;
+    background-color:rgb(154, 30, 30);
+}
+
+#aboutBox {
+    background-color:blue;
+    width:200px;
 }
 
 #profilePic {
     width: 500px;
+    position: relative;
+    left: 900px;
+
 }
 
 #challengeImg {
     width:600px;
-    
+
+}
+
+#challenge01 {
+    background-color:grey;
 }
