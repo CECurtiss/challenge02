@@ -44,18 +44,19 @@
 .about {
     display:flex;
     flex-wrap:wrap;
-    align-items:flex-start;
+    align-items:center;
+    justify-content:space-between;
 }   
 
 .box1 {
     background-color:tan;
-    font-size:60px;
-    flex:3
+    font-size:4vw;
+    flex:1;
+    max-width:50%;
 }
 
-.box2{
-    flex:1
-
+.box2 img{
+    width:40vw;
 }
 
 #challengeImg {
