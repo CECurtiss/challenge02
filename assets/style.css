@@ -33,7 +33,7 @@
     font-size:60px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.aboutBox {
+.about {
     display:flex;
     flex-wrap:wrap;
     align-items:flex-start;
@@ -61,8 +61,7 @@
     align-items:flex-start;
 }
 .container1 div{
-    border:3px;
-    border-style:dashed
+    border:3px solid black;S
 }
 
 #challenge01 {
