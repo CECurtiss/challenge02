@@ -7,8 +7,10 @@
     color:rgb(217, 158, 75);
     font-size:90px;
 }
+
 .mainMenu {
     padding-left: 20px;
+    height:30px;
 }
 
 .mainMenu li{
@@ -16,7 +18,7 @@
     float:right;
     font-size:150%;
     padding-right:40px;
-    padding-top:10px;
+    padding-bottom:20px;
 }
 
 .mainMenu li a{
@@ -31,14 +33,15 @@
     display:flex;
 }   
 
-.aboutBox p {
-    display:flex;
+.box1 {
     background-color:tan;
     font-size:30px;
+    flex:3
 }
 
-.aboutBox img{
-    width:200px;
+.box2{
+    flex:1
+
 }
 
 #challengeImg {
