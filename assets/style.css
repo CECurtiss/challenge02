@@ -1,5 +1,5 @@
 #bodyColor {
-    background-color:white;
+    background-color:maroon;
 }
 
 #myHeader {
@@ -27,6 +27,15 @@
     border-color:#0f4c5c;
     border-style:solid;
     text-decoration:none;
+    border-radius:15px;
+    box-shadow:2px 5px;
+    box-shadow:#fb8b24
+ 
+}
+
+.mainMenu li a:hover {
+    color:white;
+    box-shadow:2px 5px;
 }
 
 #aboutheader {
