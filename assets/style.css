@@ -3,7 +3,7 @@
 }
 
 #myHeader {
-    font-family:sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:rgb(217, 158, 75);
     font-size:90px;
 }
@@ -29,8 +29,13 @@
     text-decoration:none;
 }
 
+#aboutheader {
+    font-size:60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .aboutBox {
     display:flex;
+    flex-wrap:wrap;
     align-items:flex-start;
 }   
 
@@ -77,6 +82,11 @@
 
 #future3 {
     flex:1;
+}
+
+#contactheader {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:60px;
 }
 
 .contactInfo li{
