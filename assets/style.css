@@ -30,7 +30,6 @@
     border-radius:15px;
     box-shadow:2px 5px;
     box-shadow:#fb8b24
- 
 }
 
 .mainMenu li a:hover {
@@ -70,12 +69,12 @@
     align-items:flex-start;
 }
 .container1 div{
-    border:3px solid black;S
+    border:3px solid black;
 }
 
 #challenge01 {
-    background-color:grey;
     flex:1;
+    background-color:grey
 }
 
 #future1 {
@@ -103,5 +102,21 @@
     font-size:200%;
     padding-left:30px;
     margin-right:30px;
+    padding-bottom:20px;
+}
 
+.contactInfo li a {
+    color:#fb8b24;
+    border:10px;
+    border-color:#0f4c5c;
+    border-style:solid;
+    text-decoration:none;
+    border-radius:15px;
+    box-shadow:2px 5px;
+    box-shadow:#fb8b24
+}
+
+.contactInfo li a:hover {
+    color:white;
+    box-shadow:2px 5px;
 }
