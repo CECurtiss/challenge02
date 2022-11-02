@@ -85,7 +85,7 @@
 .container1 {
     display:flex;
     flex-wrap:wrap;
-    align-items:flex-start;
+    align-items:center;
 }
 .container1 div{
     border:3px solid black;
@@ -96,19 +96,33 @@
     background-color:grey
 }
 
-#future1 {
-    flex:1;
-    width:20vw;
+#challenge01 img {
+    max-width:600px;
 }
 
-#future2 {
-    flex:1;
-    width:20vw;
+.container1 div p {
+    font-size:20px;
+    color:white;
 }
 
-#future3 {
+#future1 #future2 #future3 {
     flex:1;
-    width:20vw;
+    width:40px;
+}
+
+#future1 img{
+    flex:1;
+    max-width:200px;
+}
+
+#future2 img{
+    flex:1;
+    max-width:200px;
+}
+
+#future3 img{
+    flex:1;
+    max-width:200px;
 }
 
 #contactheader {
